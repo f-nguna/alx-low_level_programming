@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * main - this is a main function
- * thi is a puts dispaly code
- * return: 0 if the code is all complete
- * this is to show the code success
+ * main - Puts the give words
+ * Return: 0 if th code success. otherwiser no success
  */
 int main(void)
 {
