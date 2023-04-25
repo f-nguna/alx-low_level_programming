@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 0; j < 9; j++)
 		{
 			for (l = i; l < 10; l++)
 			{
@@ -25,8 +25,11 @@ int main(void)
 					putchar(sp);
 					putchar('0' + l);
 					putchar('0' + m);
-					putchar(ch);
-					putchar(sp);
+					if (i + j + l + m < 35)
+					{
+						putchar(ch);
+						putchar(sp);
+					}
 				}
 			}
 		}
