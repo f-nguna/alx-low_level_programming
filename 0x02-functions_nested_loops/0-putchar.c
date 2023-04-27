@@ -25,10 +25,6 @@ int main(void)
 	putchar(ch);
 	ch = 'r';
 	putchar(ch);
-	ch = '.';
-	putchar(ch);
-	ch = 'c';
-	putchar(ch);
 	putchar('\n');
 
 	return (0);
