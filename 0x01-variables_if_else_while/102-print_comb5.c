@@ -15,9 +15,11 @@ int main(void)
 	{
 		for (j = i + 1; j < 99; j++)
 		{
-			putchar('0' + i);
+			putchar('0' + i / 10);
+			putchar('0' + i % 10);
 			putchar(sp);
-			putchar('0' + j);
+			putchar('0' + j / 10);
+			putchar('0' + j % 10);
 			if (j < 99 && i < 98)
 			{
 				putchar(ch);
@@ -25,5 +27,6 @@ int main(void)
 			}
 		}
 		}
+	putchar('\n');
 	return (0);
 }
