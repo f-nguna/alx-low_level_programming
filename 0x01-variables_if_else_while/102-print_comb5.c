@@ -7,30 +7,23 @@
 
 int main(void)
 {
-	int i, j, k, l, m;
+	int i, j;
 	int ch = ',';
 	int sp = ' ';
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 98; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 0; j < 99; j++)
 		{
-			for (l = i; l < 10; l++)
+			putchar('0' + i);
+			putchar(sp);
+			putchar('0' + j);
+			if (j < 99 && i < 98)
 			{
-				m = 
-				for (m = 0; m < 10; m++)
-				{
-					putchar('0' + i);
-					putchar('0' + j);
-					putchar(sp);
-					putchar('0' + l);
-					putchar('0' + m);
-					putchar(ch);
-					putchar(sp);
-				}
+				putchar(ch);
+				putchar(sp);
 			}
 		}
-	}
-	putchar('\n');
+		}
 	return (0);
 }
